@@ -7,3 +7,4 @@ functions:
     lang: python3
     handler: ./url-ping
     image: url-ping
+
