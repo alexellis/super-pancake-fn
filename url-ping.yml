@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  url-ping:
+    lang: python3
+    handler: ./url-ping
+    image: url-ping
