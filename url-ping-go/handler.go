@@ -1,7 +1,7 @@
 package function
 
 import (
-	"io/ioutil"
+	"fmt"
 	"net/http"
 )
 
@@ -16,7 +16,9 @@ func Handle(req []byte) string {
 		return err.Error()
 	}
 
-	bytesOut, _ := ioutil.ReadAll(res.Body)
+	if res.Body != nil {
+		defer res.Body.Close()
+	}
 
-	return string(bytesOut)
+	return fmt.Sprintf("URL status: %s", res.Status)
 }

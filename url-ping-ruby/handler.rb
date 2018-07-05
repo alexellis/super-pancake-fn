@@ -32,5 +32,8 @@ class Handler
 end
 
 # Handler.new.run("https://cli.openfaas.com/")
+# Handler.new.run("http://cli.openfaas.com/")
+
+
 
 
