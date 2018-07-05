@@ -17,3 +17,7 @@ functions:
     lang: go
     handler: ./url-ping-go
     image: url-ping-go
+  url-ping-ruby:
+    lang: ruby
+    handler: ./url-ping-ruby
+    image: url-ping-ruby
