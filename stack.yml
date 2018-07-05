@@ -13,3 +13,7 @@ functions:
     lang: node
     handler: ./url-ping-js
     image: url-ping-js
+  url-ping-go:
+    lang: go
+    handler: ./url-ping-go
+    image: url-ping-go
