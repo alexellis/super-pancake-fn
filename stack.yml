@@ -9,3 +9,7 @@ functions:
     image: url-ping
 
 # Add new line to trigger build
+  url-ping-js:
+    lang: node
+    handler: ./url-ping-js
+    image: url-ping-js
