@@ -1,4 +1,4 @@
-Samples for url-ping in different languages
+## Samples for url-ping in different languages
 
 
 - node
@@ -9,7 +9,7 @@ Samples for url-ping in different languages
 
 Examples to invoke:
 
-```shell
+```sh
 
 curl -d https://cli.openfaas.com \
  https://alexellis.o6s.io/url-ping
@@ -24,5 +24,4 @@ curl -d https://cli.openfaas.com \
  https://alexellis.o6s.io/url-ping-go
  
 ```
-
 
