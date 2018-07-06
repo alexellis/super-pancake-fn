@@ -21,3 +21,7 @@ functions:
     lang: ruby
     handler: ./url-ping-ruby
     image: url-ping-ruby
+  hello-js:
+    lang: node
+    handler: ./hello-js
+    image: hello-js
