@@ -15,5 +15,4 @@ module.exports = (context, callback) => {
 
         return callback(undefined, {status: "done", code: res.statusCode });
     });
-
 }
