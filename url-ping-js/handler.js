@@ -3,8 +3,6 @@
 const request = require("request");
 
 module.exports = (context, callback) => {
-
-    
     if(!context||!context.length) {
         callback(undefined, {status: "submit a URL for the ping"});    
     }
