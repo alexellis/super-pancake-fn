@@ -11,7 +11,6 @@ module.exports = (context, callback) => {
         if(err) {
             return callback(err, {});    
         }
-
         return callback(undefined, {status: "done", code: res.statusCode });
     });
 }
