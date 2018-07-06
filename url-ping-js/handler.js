@@ -7,6 +7,7 @@ module.exports = (context, callback) => {
         callback(undefined, {status: "submit a URL for the ping"});    
     }
 
+    
     request.get(context, (err, res, body) => {
         if(err) {
             return callback(err, {});    
