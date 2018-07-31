@@ -25,3 +25,7 @@ functions:
     lang: node
     handler: ./hello-js
     image: hello-js
+  url-ping-csharp:
+    lang: csharp
+    handler: ./url-ping-csharp
+    image: alexellis2/url-ping-csharp
